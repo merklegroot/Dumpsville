@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company />
+    <Authors>Merkle Groot</Authors>
+    <PackageProjectUrl>https://github.com/merklegroot/Dumpsville</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/merklegroot/Dumpsville/master/LICENSE</PackageLicenseUrl>
+    <Description>Adds the Dump() extension to the Object class.</Description>
+    <PackageId>Dumpsville</PackageId>
+    <Product>Dumpsville</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+</Project>
